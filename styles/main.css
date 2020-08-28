@@ -2153,7 +2153,7 @@ Menu
     height: 700px;
     width: 100%;
     min-width: 360px;
-
+    margin-top: -60px;
 }
 
 .inner-some {
@@ -2229,7 +2229,7 @@ Menu
     text-decoration: none;
     color: var(--first-color);
     background-color: var(--bacground-color);
-    margin-top: 320px;
+    margin-top: 280px;
     margin-left: 25.7%;
 }
 
@@ -2267,13 +2267,14 @@ Menu
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-top: 250px;
+    margin-top: 140px;
     margin-left: 10px;
     padding: 5px;
     width: 100%;
 }
 
 .flacon__about_us {
+    margin-top: 140px;
     background-image: url(../images/water.jpg);
     background-size: 52vh;
     background-repeat: no-repeat;
@@ -2296,7 +2297,7 @@ Menu
 #brillant_about_us {
     padding: 5px;
     position: relative;
-    margin-top: 610px;
+    margin-top: 490px;
     margin-left: 157px;
     background-color: black;
     background-size: 53.5vh;
@@ -2316,13 +2317,13 @@ Menu
 
 #text__area {
     position: relative;
-    margin-top: 750px;
+    display: flex;
+    margin-top: 640px;
     margin-left: 45px;
     background-image: url(../images/kubik.png);
     height: 270px;
     background-repeat: no-repeat;
     background-position: top;
-    background-attachment: local;
     color: var(--text-color);
     width: 360px;
 }
@@ -2348,12 +2349,13 @@ Menu
 }
 
 .container .box {
+    padding-top: 10px;
     position: relative;
     height: 145px;
     width: 160px;
     margin-left: 5px;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 0px;
 }
 .container .box:nth-child(1) {
     margin-left: 15px;
@@ -2363,8 +2365,13 @@ Menu
 .container .box:nth-child(3) {
     margin-left: 15px;
     margin-right: 5px;
-
+    margin-top: -12px;
 }
+
+.container .box:nth-child(4) {
+    margin-top: -12px;
+}
+
 
 
 .container .box .img_box {
@@ -2383,13 +2390,6 @@ Menu
 
 .container .box .details {
     display: none;
-}
-.container .box:hover .details {
-    transform: scaleY(1);
-}
-
-.container .box .details .content h2 {
-    font-size: 20px;
 }
 
 .container .box .details .content {
@@ -2412,6 +2412,7 @@ Menu
 /*GIVEAWAY */
 
 .giveaway_block {
+    position: relative;
     width: 360px;
     display: flex;
     flex-direction: column;
@@ -2426,7 +2427,7 @@ Menu
 .best_offers {
     position: relative;
     margin-left: 30%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .best_offers h1 {
@@ -2437,10 +2438,10 @@ Menu
 .giveaway {
     position: absolute;
     margin-left: 5px;
-    margin-top: 30px;
+    margin-top: 15px;
     background-color: white;
     width: 100%;
-    height: 550px;
+    height: 470px;
 }
 
 .giveaway_tittle {
@@ -2508,8 +2509,8 @@ Menu
 .gvw-video360 {
     display: flex;
     position: relative;
-    margin-top: 580px;
-    margin-left: 3px;
+    margin-top: 485px;
+    margin-left: 5px;
     background-color: black;
     height: 300px;
     width: 350px;
@@ -2562,7 +2563,7 @@ FOOTER
 footer{
     background-color: #171415;
     width: 360px;
-    height: 29vh;
+    height: 36vh;
 }
 
 
