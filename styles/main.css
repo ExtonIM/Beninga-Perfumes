@@ -2245,7 +2245,6 @@ Menu
 
 .right-main-block {
     display: flex;
-    flex-direction: column;
     min-width: 360px;
 }
 
@@ -2275,15 +2274,13 @@ Menu
 }
 
 .flacon__about_us {
-    box-sizing:inherit;
     background-image: url(../images/water.jpg);
-    background-size: 45.5vh;
+    background-size: 52vh;
     background-repeat: no-repeat;
     width: 100%;
 }
 
 #contact_us_btn {
-    margin-left: 15px;
     display: inline-block;
     padding: 5px 20px;
     text-decoration: none;
@@ -2298,13 +2295,13 @@ Menu
 
 #brillant_about_us {
     padding: 5px;
-    position: absolute;
-    margin-top: 600px;
-    margin-left: 42%;
+    position: relative;
+    margin-top: 610px;
+    margin-left: 157px;
     background-color: black;
     background-size: 53.5vh;
-    height: 50vh;
-    width: 100%;
+    height: 60vh;
+    width: 75.59vh;
 }
 
 #about_us_in_square {
@@ -2318,8 +2315,8 @@ Menu
 }
 
 #text__area {
-    margin-top: 640px;
     position: relative;
+    margin-top: 750px;
     margin-left: 45px;
     background-image: url(../images/kubik.png);
     height: 270px;
@@ -2328,7 +2325,6 @@ Menu
     background-attachment: local;
     color: var(--text-color);
     width: 360px;
-    font-size: ;
 }
 
 #best__sell_text {
@@ -2341,6 +2337,7 @@ Menu
 }
 
 .container {
+    position: relative;
     width: 100%;
     min-height: 50px;
     margin: -140px 0px 0px;
@@ -2510,17 +2507,17 @@ Menu
 
 .gvw-video360 {
     display: flex;
-    position: absolute;
+    position: relative;
     margin-top: 580px;
-    margin-left: 5px;
+    margin-left: 3px;
     background-color: black;
     height: 300px;
-    width: 360px;
+    width: 350px;
     overflow: hidden;
 }
 
 .container_img {
-    margin-top: 920px;
+    margin-top: 50px;
     width: 100%;
     display: flex;
     flex-direction: row;
