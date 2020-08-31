@@ -890,7 +890,6 @@ input:placeholder-shown {
     width: 45%;
     float: right;
     padding-right: 20px;
-    -webkit-margin-start: 50%;
 }
 
 .some_text {
@@ -911,6 +910,7 @@ input:placeholder-shown {
     margin-left: 50px;
     margin-top: -10%;
     width: 1920px;
+
 }
 
 .flacon__about_us {
@@ -929,7 +929,6 @@ input:placeholder-shown {
     background-color: black;
     height: 540px;
     width: 28%;
-    -webkit-margin-start: 70.5%;
 }
 
 #about_us_in_square {
