@@ -1266,6 +1266,7 @@ footer{
    background-color: rgb(20, 19, 19);
    border: 1px solid;
    color: white;
+   padding-left: 5px;
 }
 
 input::-webkit-input-placeholder {
