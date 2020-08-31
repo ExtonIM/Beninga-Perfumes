@@ -1963,6 +1963,8 @@ Menu
     z-index: 12;
     height: 70px;
     width: 360px;
+    padding-right: 0px;
+    margin-right: 0px;
 }
 
 
@@ -2115,9 +2117,6 @@ Menu
     visibility: hidden;
 }
 
-.burger-menu-img:active {
-    
-}
 
 #images {
     display: flex;
@@ -2249,10 +2248,11 @@ Menu
 }
 
 .main_right_block {
+    position: relative;
     display: flex;
-    margin-left: -150px;
+    margin-left: -210px;
     margin-top: 200px;
-    width: 100%;
+    width: 99%;
 }
 
 #about__us {
@@ -2278,7 +2278,8 @@ Menu
     background-image: url(../images/water.jpg);
     background-size: 52vh;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 300px;
+    margin-right: 100px;    
 }
 
 #contact_us_btn {
@@ -2298,11 +2299,11 @@ Menu
     padding: 5px;
     position: relative;
     margin-top: 490px;
-    margin-left: 157px;
+    margin-left: 240px;
     background-color: black;
     background-size: 53.5vh;
-    height: 60vh;
-    width: 75.59vh;
+    height: auto;
+    width: 79.59vh;
 }
 
 #about_us_in_square {
